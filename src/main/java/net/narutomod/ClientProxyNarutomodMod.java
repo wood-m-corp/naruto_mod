@@ -14,6 +14,7 @@ public class ClientProxyNarutomodMod implements IProxyNarutomodMod {
 	@Override
 	public void preInit(FMLPreInitializationEvent event) {
 		OBJLoader.INSTANCE.addDomain("narutomod");
+		System.out.println("Hello!");
 	}
 
 	@Override
